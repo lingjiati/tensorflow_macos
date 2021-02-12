@@ -53,7 +53,7 @@ function graceful_error () {
   exit 1
 }
 
-bash ./$INSTALLER_SCRIPT --prompt || graceful_error 
+bash ./$INSTALLER_SCRIPT --prompt --python=/Library/Developer/CommandLineTools/usr/bin/python3 || graceful_error 
 
 popd
 rm -rf $tmp_dir
