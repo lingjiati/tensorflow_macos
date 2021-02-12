@@ -25,10 +25,12 @@ An archive containing Python packages and an installation script can be download
 
 #### Details
 
+I used the command below for switching to the arm64 (instead of the arm64e) python version from Xcode Command Line Tools.
+
 - To quickly try this out, copy and paste the following into Terminal:
 
   ```
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/apple/tensorflow_macos/master/scripts/download_and_install.sh)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/chinitaberrio/tensorflow_macos/master/scripts/download_and_install.sh)"
   ```
 
   This will verify your system, ask you for confirmation, then create a virtual environment (https://docs.python.org/3.8/tutorial/venv.html) with TensorFlow for macOS installed.
