@@ -9,12 +9,6 @@ INSTALLER_SCRIPT=install_venv.sh
 
 echo
 
-# Check to make sure we're good to go.
-if [[ $(uname) != Darwin ]] || [[ $(sw_vers -productName) != macOS ]] || [[ $(sw_vers -productVersion) != "11."* ]] ; then 
-  echo "ERROR: TensorFlow with ML Compute acceleration is only available on macOS 11.0 and later." 
-  exit 1
-fi
-
 # This 
 echo "Installation script for pre-release tensorflow_macos $VERSION.  Please visit https://github.com/apple/tensorflow_macos "
 echo "for instructions and license information."   
