@@ -7,8 +7,6 @@ INSTALLER_PACKAGE=tensorflow_macos-$VERSION.tar.gz
 INSTALLER_PATH=https://github.com/apple/tensorflow_macos/releases/download/v$VERSION/$INSTALLER_PACKAGE
 INSTALLER_SCRIPT=install_venv.sh
 
-echo
-
 # This 
 echo "Installation script for pre-release tensorflow_macos $VERSION.  Please visit https://github.com/apple/tensorflow_macos "
 echo "for instructions and license information."   
